@@ -1,3 +1,13 @@
 Bonjour,
 Lab1:
 J'ai commencencé par telecharger Terrafom sur ma machine, puis j'ai configuré mon profil aws à travers des fichiers .aws/credentials et .aws/config.
+
+J'ai completé mon fichier main.tf afin de créer ma ressource s3 bucket dans la region eu-west-3.
+Faire mon premier init de mon lab.
+terraform plan :  permet de génerer un plan d'exécution à partir d'une comparaison entre les fichiers .tf ,le state file, et le cloud réel. Affichage des ressources à ajouter / à modifier/ à detruire.
+
+terraform apply: réaffiche le plan d'exécution, demande une confirmation, puis exécute les actions à faire. J'ai pu visualiser le state file à travers la commande " terraform show", puis visualiser ma ressource sur la console aws.
+
+terraform destroy: affiches le plan de déstruction, demandes une confirmation, puis détruis les ressource crées, supprimes le state file.  
+
+
